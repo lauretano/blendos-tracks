@@ -3,20 +3,11 @@ impl: 'https://github.com/lauretano/blendos-tracks/raw/main'
 track: 'gnome-t2'
 
 packages:
-  - 'apple-bcm-firmware'
-  - 't2fanrd'
-  - 'tiny-dfr'
-  - 'apple-t2-audio-config'
-  - 'linux-xanmod-t2'
-  - 'linux-xanmod-t2-headers'
-
-services:
-  - 't2fanrd'
-  - 'tiny-dfr'
-
-commands:
-  - 'bash <(wget -qO- https://wiki.t2linux.org/tools/firmware.sh)'
-
-package-repos:
-  - name: 'arch-mact2'
-    repo-url: 'https://mirror.funami.tech/$repo/os/$arch'
+  - 'gnome-shell-extension-dash-to-dock'
+  - 'gnome-shell-extension-blur-my-shell'
+  - 'gnome-shell-extension-appindicator'
+  - 'gnome-initial-setup'
+  - 'filesystem-blend'
+  - 'plymouth-blend'
+  - 'blend-web-store'
+  - 'firefox'
