@@ -1,0 +1,22 @@
+impl: 'https://github.com/blend-os/tracks/raw/main'
+
+track: 'default-gnome'
+
+packages:
+  - 'apple-bcm-firmware'
+  - 't2fanrd'
+  - 'tiny-dfr'
+  - 'apple-t2-audio-config'
+  - 'linux-xanmod-t2'
+  - 'linux-xanmod-t2-headers'
+
+services:
+  - 't2fanrd'
+  - 'tiny-dfr'
+
+commands:
+  - 'bash <(wget -qO- https://wiki.t2linux.org/tools/firmware.sh)'
+
+package-repos:
+  - name: 'arch-mact2'
+    repo-url: 'https://mirror.funami.tech/$repo/os/$arch'
