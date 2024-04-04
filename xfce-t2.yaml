@@ -1,0 +1,11 @@
+impl: 'https://github.com/lauretano/blendos-tracks/raw/main'
+
+track: 'blendos-base-t2'
+
+packages:
+  - 'xfce4'
+  - 'lightdm'
+  - 'lightdm-gtk-greeter'
+
+services:
+  - 'lightdm'

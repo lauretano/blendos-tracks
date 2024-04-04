@@ -1,0 +1,10 @@
+impl: 'https://github.com/lauretano/blendos-tracks/raw/main'
+
+track: 'blendos-base-t2'
+
+packages:
+  - 'lxqt'
+  - 'sddm'
+
+services:
+  - 'sddm'

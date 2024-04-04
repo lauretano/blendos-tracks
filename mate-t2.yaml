@@ -1,0 +1,12 @@
+impl: 'https://github.com/lauretano/blendos-tracks/raw/main'
+
+track: 'blendos-base-t2'
+
+packages:
+  - 'mate'
+  - 'mate-extra'
+  - 'lightdm'
+  - 'lightdm-gtk-greeter'
+
+services:
+  - 'lightdm'

@@ -1,0 +1,18 @@
+impl: 'https://github.com/lauretano/blendos-tracks/raw/main'
+
+track: 'blendos-base-t2'
+
+packages:
+  - 'kde-system-meta'
+  - 'kde-utilities-meta'
+  - 'plasma'
+  - 'plasma-workspace'
+  - 'sddm'
+  - 'waydroid'
+  - 'waydroid-image'
+
+services:
+  - 'sddm'
+
+commands:
+  - 'rm -f /usr/share/applications/Waydroid.desktop'
