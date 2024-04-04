@@ -1,6 +1,6 @@
-impl: 'https://github.com/blend-os/tracks/raw/main'
+impl: 'https://github.com/lauretano/blendos-tracks/raw/main'
 
-track: 'default-gnome'
+track: 'gnome-t2'
 
 packages:
   - 'apple-bcm-firmware'
